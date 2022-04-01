@@ -1,0 +1,146 @@
+/* ------------页面布局------------ */
+.overflow {
+	overflow: hidden;
+}
+
+.flex {
+	display: flex;
+}
+.justify-content-space-between {
+	justify-content: space-between;
+}
+.justify-content-space-around {
+	justify-content: space-around;
+}
+.justify-content-start {
+	justify-content: start;
+}
+.left,
+.middle {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+
+/* ------------字体颜色------------ */
+.color-theme {
+	color: #91c407;
+}
+
+.color-white {
+	color: #FFFFFF;
+}
+
+
+/* ------------背景颜色------------ */
+.bg-theme {
+	background: #94c615;
+}
+
+.bg-white {
+	background: #FFFFFF;
+}
+
+
+/* ------------边框设置------------ */
+.border-theme {
+	border: 1rpx solid #94c615;
+}
+
+.border-top {
+	border-top: 1rpx solid #efefef;
+}
+
+.border-bottom {
+	border-bottom: 1rpx solid #efefef;
+}
+
+.border-radius {
+	border-radius: 12rpx;
+}
+
+.border-radius-small {
+	border-radius: 6rpx;
+}
+
+.border-radius-big {
+	border-radius: 30rpx;
+}
+
+
+/* ------------边距设置------------ */
+.margin-top {
+	margin-top: 30rpx;
+}
+
+.margin-bottom {
+	margin-bottom: 30rpx;
+}
+
+
+/* ------------按钮设置------------ */
+.button {
+	line-height: 70rpx;
+}
+
+.button-small {
+	line-height: 60rpx;
+}
+
+.button-big {
+	line-height: 80rpx;
+}
+
+/* ------------溢出省略------------ */
+.ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+/* ------------公共样式------------ */
+page {
+	height: 100%;
+	/* #ifdef H5 */
+	/* width: calc(100vw); */
+	/* #endif */
+	
+	/* #ifndef H5 */
+	/* width: calc(100vw - 40rpx); */
+	/* #endif */
+	font-size: 28rpx;
+	background: #f5f5f5;
+	/* padding: 0 20rpx 0 20rpx; */
+	font-family: Arial, Helvetica, sans-serif, microsoft yahei;
+}
+.page-contain {
+	/* #ifdef H5 */
+	/* width: calc(100vw); */
+	/* #endif */
+	
+	/* #ifndef H5 */
+	/* width: calc(100vw - 40rpx); */
+	/* #endif */
+	padding: 0 20rpx 0 20rpx;
+}
+

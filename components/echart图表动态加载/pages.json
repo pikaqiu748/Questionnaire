@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/demo-echart/line",
+			"style": {
+				"navigationBarTitleText": "柱状图"
+			}
+		},
+		{
+			"path": "pages/demo-echart/pie",
+			"style": {
+				"navigationBarTitleText": "仪表盘"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#3d3d3d",
+		"selectedColor": "#00adff",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/demo-echart/line",
+			"text": "柱状图"
+		}, {
+			"pagePath": "pages/demo-echart/pie",
+			"text": "仪表盘"
+		}]	
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

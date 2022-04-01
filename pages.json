@@ -1,0 +1,94 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			},
+			"meta": {
+				"auth": false
+			}
+		}, {
+			"path": "pages/questionnaire/questionnaire",
+			"style": {
+				"navigationBarTitleText": "调查问卷",
+				"enablePullDownRefresh": false
+
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/batch/batch",
+			"style": {
+				"navigationBarTitleText": "季度记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationBarTitleText": "季度统计结果",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/statistics/table",
+			"style": {
+				"navigationBarTitleText": "季度统计结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/scoreTable/scoreTable",
+			"style": {
+				"navigationBarTitleText": "季度统计结果",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/create-batch/create-batch",
+			"style": {
+				"navigationBarTitleText": "创建调查问卷",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/one-batch-record/one-batch-record",
+			"style": {
+				"navigationBarTitleText": "问卷记录",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#FFC107",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "55px",
+		"fontSize": "12px",
+		"iconWidth": "28px",
+		"list": []
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": []
+	}
+}
